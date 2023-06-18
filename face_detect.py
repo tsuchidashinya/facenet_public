@@ -13,7 +13,7 @@ def cos_similarity(p1, p2):
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 mtcnn = MTCNN(image_size=160, margin=0,  min_face_size=20, thresholds=[0.6, 0.7, 0.7], factor=0.709, post_process=True,  device=device)
 resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
-image_paths = ["naoki_1.JPG", "naoki_2.JPG", "shinya_3.JPG", "shinya_2.JPG", "tailor.jpeg", "tailor_1.jpeg"]
+image_paths = ["naoki_1.JPG", "naoki_2.JPG", "shinya_3.JPG", "shinya_2.JPG", "tailor.jpeg", "tailor_1.jpeg", "angelina_1.jpeg", "angelina_2.jpeg", "ul_1.jpeg", "ul.jpeg"]
 embeddings = []
 for i, image_path in enumerate(image_paths):
     image_path = os.path.join("images", image_path)
