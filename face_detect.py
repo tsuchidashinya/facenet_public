@@ -18,14 +18,15 @@ embeddings = []
 for image_path in image_paths:
     image_path = os.path.join("images", image_path)
     img = Image.open(image_path)
-    # start = time.time()
+    start = time.time()
     img_cropped = mtcnn(img)
     img_embedding = resnet(img_cropped.unsqueeze(0))
     resnet.classify = True
     img_probs = resnet(img_cropped.unsqueeze(0))
     img_probs = img_probs.squeeze().to('cpu').detach().numpy().copy()
-    # end = time.time()
+    end = time.time()
     embeddings.append(img_probs)
+    print(end - start)
 dists= [[cos_similarity(e1, e2) for e2 in embeddings] for e1 in embeddings]
 print(pd.DataFrame(dists, columns=image_paths, index=image_paths))
 
