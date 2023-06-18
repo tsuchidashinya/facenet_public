@@ -3,7 +3,7 @@ import yaml
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-y', '--yaml_file', type=str, default='compress_image_list.yaml')
+parser.add_argument('-y', '--yaml_file', type=str, default='yaml/compress_image_list.yaml')
 args = parser.parse_args()
 image_paths = []
 with open(args.yaml_file, 'r') as yaml_file:
