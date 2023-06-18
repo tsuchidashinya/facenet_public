@@ -1,33 +1,77 @@
-0 processing_time(mtcnn - start):  5.96392035484314
-0 processing_time(resnet - mtcnn):  1.7502808570861816
+0 processing_time(mtcnn - start):  1.1679351329803467
+0 processing_time(resnet - mtcnn):  0.11134719848632812
 
-1 processing_time(mtcnn - start):  5.580169439315796
-1 processing_time(resnet - mtcnn):  2.160217046737671
+1 processing_time(mtcnn - start):  1.0715997219085693
+1 processing_time(resnet - mtcnn):  0.1431715488433838
 
-2 processing_time(mtcnn - start):  4.687491178512573
-2 processing_time(resnet - mtcnn):  3.121541738510132
+2 processing_time(mtcnn - start):  1.0551745891571045
+2 processing_time(resnet - mtcnn):  0.11065554618835449
 
-3 processing_time(mtcnn - start):  2.654768466949463
-3 processing_time(resnet - mtcnn):  2.3310041427612305
+3 processing_time(mtcnn - start):  0.9847085475921631
+3 processing_time(resnet - mtcnn):  0.11198759078979492
 
-4 processing_time(mtcnn - start):  0.7815113067626953
-4 processing_time(resnet - mtcnn):  1.9039826393127441
+4 processing_time(mtcnn - start):  0.9798076152801514
+4 processing_time(resnet - mtcnn):  0.11552119255065918
 
-5 processing_time(mtcnn - start):  0.5923407077789307
-5 processing_time(resnet - mtcnn):  1.8435873985290527
+5 processing_time(mtcnn - start):  0.03600192070007324
+5 processing_time(resnet - mtcnn):  0.1087038516998291
 
-6 processing_time(mtcnn - start):  0.9332470893859863
-6 processing_time(resnet - mtcnn):  2.397651433944702
+6 processing_time(mtcnn - start):  0.04372239112854004
+6 processing_time(resnet - mtcnn):  0.09952926635742188
 
-7 processing_time(mtcnn - start):  0.934471845626831
-7 processing_time(resnet - mtcnn):  1.9639637470245361
+7 processing_time(mtcnn - start):  0.040001630783081055
+7 processing_time(resnet - mtcnn):  0.1038060188293457
 
-              tsuchida_3  tsuchida_2  mybrother_1  mybrother_2  angelina_1  angelina_2  will_smith_2  will_smith_1
-tsuchida_3      1.000000    0.759708     0.343093     0.399151   -0.161233   -0.020700      0.148524      0.186621
-tsuchida_2      0.759708    1.000000     0.549225     0.449084   -0.121594   -0.113183      0.036745     -0.006572
-mybrother_1     0.343093    0.549225     1.000000     0.771547    0.001719   -0.095009     -0.076441     -0.084132
-mybrother_2     0.399151    0.449084     0.771547     1.000000   -0.023601   -0.072311      0.119724      0.089634
-angelina_1     -0.161233   -0.121594     0.001719    -0.023601    1.000000    0.696110      0.042979      0.076901
-angelina_2     -0.020700   -0.113183    -0.095009    -0.072311    0.696110    1.000000      0.195238      0.189687
-will_smith_2    0.148524    0.036745    -0.076441     0.119724    0.042979    0.195238      1.000000      0.776125
-will_smith_1    0.186621   -0.006572    -0.084132     0.089634    0.076901    0.189687      0.776125      1.000000
+8 processing_time(mtcnn - start):  0.03752541542053223
+8 processing_time(resnet - mtcnn):  0.10556554794311523
+
+9 processing_time(mtcnn - start):  0.044026851654052734
+9 processing_time(resnet - mtcnn):  0.10869884490966797
+
+                      tsuchida_normal  tsuchida_smile  tsuchida_look_away  \
+tsuchida_normal              1.000000        0.870203            0.841757   
+tsuchida_smile               0.870203        1.000000            0.812861   
+tsuchida_look_away           0.841757        0.812861            1.000000   
+tsuchida_blink               0.925182        0.841799            0.796521   
+tsuchida_mask                0.771048        0.804694            0.669831   
+angelina_front_1            -0.101864       -0.099313            0.033933   
+angelina_front_2            -0.214407       -0.217904           -0.068164   
+angelina_front_3            -0.073244       -0.072675           -0.031150   
+angelina_look_away_1        -0.337164       -0.279663           -0.165433   
+angelina_look_away_2        -0.161179       -0.120626           -0.084847   
+
+                      tsuchida_blink  tsuchida_mask  angelina_front_1  \
+tsuchida_normal             0.925182       0.771048         -0.101864   
+tsuchida_smile              0.841799       0.804694         -0.099313   
+tsuchida_look_away          0.796521       0.669831          0.033933   
+tsuchida_blink              1.000000       0.683866         -0.035228   
+tsuchida_mask               0.683866       1.000000         -0.094073   
+angelina_front_1           -0.035228      -0.094073          1.000000   
+angelina_front_2           -0.165911      -0.142411          0.765440   
+angelina_front_3           -0.024781      -0.030238          0.750093   
+angelina_look_away_1       -0.246807      -0.252014          0.758555   
+angelina_look_away_2       -0.141957      -0.034346          0.630362   
+
+                      angelina_front_2  angelina_front_3  \
+tsuchida_normal              -0.214407         -0.073244   
+tsuchida_smile               -0.217904         -0.072675   
+tsuchida_look_away           -0.068164         -0.031150   
+tsuchida_blink               -0.165911         -0.024781   
+tsuchida_mask                -0.142411         -0.030238   
+angelina_front_1              0.765440          0.750093   
+angelina_front_2              1.000000          0.602126   
+angelina_front_3              0.602126          1.000000   
+angelina_look_away_1          0.741212          0.709440   
+angelina_look_away_2          0.595771          0.648404   
+
+                      angelina_look_away_1  angelina_look_away_2  
+tsuchida_normal                  -0.337164             -0.161179  
+tsuchida_smile                   -0.279663             -0.120626  
+tsuchida_look_away               -0.165433             -0.084847  
+tsuchida_blink                   -0.246807             -0.141957  
+tsuchida_mask                    -0.252014             -0.034346  
+angelina_front_1                  0.758555              0.630362  
+angelina_front_2                  0.741212              0.595771  
+angelina_front_3                  0.709440              0.648404  
+angelina_look_away_1              1.000000              0.731662  
+angelina_look_away_2              0.731662              1.000000  
