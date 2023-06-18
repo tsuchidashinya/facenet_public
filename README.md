@@ -45,7 +45,6 @@ yaml/sample_images.yaml
 ```
 ### Pythonファイルを実行
 ```
-
 python face_detect.py -y sample_images.yaml
 ```
 
