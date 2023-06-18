@@ -16,6 +16,7 @@ resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 image_paths = ["naoki_1.JPG", "naoki_2.JPG", "shinya_1.JPG", "shinya_2.JPG", "tailor.jpeg", "tailor_1.jpeg"]
 embeddings = []
 for image_path in image_paths:
+    image_path = os.path.join("images", image_path)
     img = Image.open(image_path)
     # start = time.time()
     img_cropped = mtcnn(img)
