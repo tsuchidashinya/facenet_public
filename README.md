@@ -24,6 +24,11 @@ pip install torchvision-0.8.0a0+45f960c-cp37-cp37m-linux_armv7l.whl
 pip install facenet-pytorch
 ```
 ## サンプルプログラムの実行方法(ラズパイとdesktop環境共通)
+### facenet_demo(このパッケージ)をクローン
+```
+git clone https://github.com/s-tsuchida-safie/facenet_demo
+cd facenet_demo
+```
 ### yamlファイルに実行したい画像リストのパスを記入
 yaml/sample_images.yaml
 ```yaml
@@ -38,10 +43,9 @@ yaml/sample_images.yaml
 - images/same_person_images/angelina_look_away_1.jpg
 - images/same_person_images/angelina_look_away_2.jpg
 ```
-### facenet_demo(このパッケージ)をインストールして実行
+### Pythonファイルを実行
 ```
-git clone https://github.com/s-tsuchida-safie/facenet_demo
-cd facenet_demo
+
 python face_detect.py -y sample_images.yaml
 ```
 
