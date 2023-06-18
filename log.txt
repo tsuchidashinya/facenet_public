@@ -1,41 +1,33 @@
-0 processing_time(mtcnn - start):  0.4625687599182129
-0 processing_time(resnet - mtcnn):  0.16811537742614746
+0 processing_time(mtcnn - start):  0.594012975692749
+0 processing_time(resnet - mtcnn):  0.13520073890686035
 
-1 processing_time(mtcnn - start):  0.2315363883972168
-1 processing_time(resnet - mtcnn):  0.1714637279510498
+1 processing_time(mtcnn - start):  0.3914358615875244
+1 processing_time(resnet - mtcnn):  0.12319087982177734
 
-2 processing_time(mtcnn - start):  0.553755521774292
-2 processing_time(resnet - mtcnn):  0.12981438636779785
+2 processing_time(mtcnn - start):  0.44162821769714355
+2 processing_time(resnet - mtcnn):  0.17285728454589844
 
-3 processing_time(mtcnn - start):  0.3810536861419678
-3 processing_time(resnet - mtcnn):  0.13591551780700684
+3 processing_time(mtcnn - start):  0.21733427047729492
+3 processing_time(resnet - mtcnn):  0.12663578987121582
 
-4 processing_time(mtcnn - start):  0.03870391845703125
-4 processing_time(resnet - mtcnn):  0.1542222499847412
+4 processing_time(mtcnn - start):  0.02166128158569336
+4 processing_time(resnet - mtcnn):  0.12050151824951172
 
-5 processing_time(mtcnn - start):  0.045632362365722656
-5 processing_time(resnet - mtcnn):  0.13383865356445312
+5 processing_time(mtcnn - start):  0.018470048904418945
+5 processing_time(resnet - mtcnn):  0.12125563621520996
 
-6 processing_time(mtcnn - start):  0.021263599395751953
-6 processing_time(resnet - mtcnn):  0.12267923355102539
+6 processing_time(mtcnn - start):  0.039992570877075195
+6 processing_time(resnet - mtcnn):  0.1186668872833252
 
-7 processing_time(mtcnn - start):  0.020692110061645508
-7 processing_time(resnet - mtcnn):  0.15004587173461914
+7 processing_time(mtcnn - start):  0.030832529067993164
+7 processing_time(resnet - mtcnn):  0.11629509925842285
 
-8 processing_time(mtcnn - start):  0.03489422798156738
-8 processing_time(resnet - mtcnn):  0.12247204780578613
-
-9 processing_time(mtcnn - start):  0.03726959228515625
-9 processing_time(resnet - mtcnn):  0.138014554977417
-
-                 naoki_1.JPG  naoki_2.JPG  shinya_3.JPG  shinya_2.JPG  tailor.jpeg  tailor_1.jpeg  angelina_1.jpeg  angelina_2.jpeg  ul_1.jpeg   ul.jpeg
-naoki_1.JPG         1.000000     0.771920      0.346592      0.553500     0.156202       0.063815         0.001793        -0.096198  -0.076656 -0.078835
-naoki_2.JPG         0.771920     1.000000      0.405468      0.447135     0.094474      -0.006731        -0.022686        -0.072208   0.085070  0.121392
-shinya_3.JPG        0.346592     0.405468      1.000000      0.761204     0.069836       0.168433        -0.160348        -0.028951   0.215691  0.146394
-shinya_2.JPG        0.553500     0.447135      0.761204      1.000000    -0.006269       0.061601        -0.107478        -0.110410   0.022813  0.033588
-tailor.jpeg         0.156202     0.094474      0.069836     -0.006269     1.000000       0.776430         0.258247         0.121562   0.002514 -0.102584
-tailor_1.jpeg       0.063815    -0.006731      0.168433      0.061601     0.776430       1.000000         0.175117         0.144929  -0.059697 -0.202897
-angelina_1.jpeg     0.001793    -0.022686     -0.160348     -0.107478     0.258247       0.175117         1.000000         0.692932   0.053248  0.026672
-angelina_2.jpeg    -0.096198    -0.072208     -0.028951     -0.110410     0.121562       0.144929         0.692932         1.000000   0.171245  0.175999
-ul_1.jpeg          -0.076656     0.085070      0.215691      0.022813     0.002514      -0.059697         0.053248         0.171245   1.000000  0.729782
-ul.jpeg            -0.078835     0.121392      0.146394      0.033588    -0.102584      -0.202897         0.026672         0.175999   0.729782  1.000000
+              tsuchida_3  tsuchida_2  mybrother_1  mybrother_2  angelina_1  angelina_2  will_smith_2  will_smith_1
+tsuchida_3      1.000000    0.761204     0.346592     0.405468   -0.160348   -0.028951      0.146394      0.215691
+tsuchida_2      0.761204    1.000000     0.553500     0.447135   -0.107478   -0.110410      0.033588      0.022813
+mybrother_1     0.346592    0.553500     1.000000     0.771920    0.001793   -0.096198     -0.078835     -0.076656
+mybrother_2     0.405468    0.447135     0.771920     1.000000   -0.022686   -0.072208      0.121392      0.085070
+angelina_1     -0.160348   -0.107478     0.001793    -0.022686    1.000000    0.692932      0.026672      0.053248
+angelina_2     -0.028951   -0.110410    -0.096198    -0.072208    0.692932    1.000000      0.175999      0.171245
+will_smith_2    0.146394    0.033588    -0.078835     0.121392    0.026672    0.175999      1.000000      0.729782
+will_smith_1    0.215691    0.022813    -0.076656     0.085070    0.053248    0.171245      0.729782      1.000000
