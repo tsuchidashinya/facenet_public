@@ -12,7 +12,7 @@ import argparse
 pd.set_option('display.max_rows', 150)
 pd.set_option('display.max_columns', 20)
 parser = argparse.ArgumentParser()
-parser.add_argument('-y', '--yaml_file', type=str, default='yaml/load_image_list.yaml')
+parser.add_argument('-y', '--yaml_file', type=str, default='yaml/sample_images.yaml')
 args = parser.parse_args()
 image_paths = []
 with open(args.yaml_file, 'r') as yaml_file:
