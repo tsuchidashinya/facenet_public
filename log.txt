@@ -1,77 +1,13 @@
-0 processing_time(mtcnn - start):  0.10544538497924805
-0 processing_time(resnet - mtcnn):  0.11854696273803711
+               ichiuji   IMG_ito     ito_2  IMG_nakata  ...  s-tsuchida  t-omachi  omachi_2  ichiji_2
+ichiuji       1.000000  0.534614  0.517757    0.558128  ...    0.578653  0.330511  0.330528  0.728587
+IMG_ito       0.534614  1.000000  0.792042    0.420420  ...    0.297424  0.270389  0.442542  0.530112
+ito_2         0.517757  0.792042  1.000000    0.458544  ...    0.371211  0.230174  0.388595  0.509405
+IMG_nakata    0.558128  0.420420  0.458544    1.000000  ...    0.639258  0.422654  0.436978  0.469609
+IMG_nakata_2  0.536960  0.398270  0.381932    0.909356  ...    0.682511  0.394981  0.381361  0.432331
+IMG_tsuchida  0.442040  0.191533  0.199525    0.524883  ...    0.788230  0.353187  0.304185  0.358915
+s-tsuchida    0.578653  0.297424  0.371211    0.639258  ...    1.000000  0.274410  0.208106  0.287135
+t-omachi      0.330511  0.270389  0.230174    0.422654  ...    0.274410  1.000000  0.678052  0.404413
+omachi_2      0.330528  0.442542  0.388595    0.436978  ...    0.208106  0.678052  1.000000  0.570867
+ichiji_2      0.728587  0.530112  0.509405    0.469609  ...    0.287135  0.404413  0.570867  1.000000
 
-1 processing_time(mtcnn - start):  0.10552406311035156
-1 processing_time(resnet - mtcnn):  0.10954046249389648
-
-2 processing_time(mtcnn - start):  0.10960984230041504
-2 processing_time(resnet - mtcnn):  0.10751771926879883
-
-3 processing_time(mtcnn - start):  0.10052967071533203
-3 processing_time(resnet - mtcnn):  0.14389300346374512
-
-4 processing_time(mtcnn - start):  0.11205577850341797
-4 processing_time(resnet - mtcnn):  0.11652040481567383
-
-5 processing_time(mtcnn - start):  0.036588191986083984
-5 processing_time(resnet - mtcnn):  0.11766266822814941
-
-6 processing_time(mtcnn - start):  0.04302525520324707
-6 processing_time(resnet - mtcnn):  0.11167597770690918
-
-7 processing_time(mtcnn - start):  0.039551496505737305
-7 processing_time(resnet - mtcnn):  0.09751582145690918
-
-8 processing_time(mtcnn - start):  0.032003164291381836
-8 processing_time(resnet - mtcnn):  0.10193586349487305
-
-9 processing_time(mtcnn - start):  0.041037797927856445
-9 processing_time(resnet - mtcnn):  0.0975344181060791
-
-                      tsuchida_normal  tsuchida_smile  tsuchida_look_away  \
-tsuchida_normal              1.000000        0.869738            0.809664   
-tsuchida_smile               0.869738        1.000000            0.833973   
-tsuchida_look_away           0.809664        0.833973            1.000000   
-tsuchida_blink               0.940033        0.864270            0.797411   
-tsuchida_mask                0.750357        0.807301            0.677860   
-angelina_front_1            -0.033478       -0.115889            0.027817   
-angelina_front_2            -0.179078       -0.232297           -0.058182   
-angelina_front_3            -0.013355       -0.085188           -0.027214   
-angelina_look_away_1        -0.280825       -0.287178           -0.155110   
-angelina_look_away_2        -0.131103       -0.140251           -0.070305   
-
-                      tsuchida_blink  tsuchida_mask  angelina_front_1  \
-tsuchida_normal             0.940033       0.750357         -0.033478   
-tsuchida_smile              0.864270       0.807301         -0.115889   
-tsuchida_look_away          0.797411       0.677860          0.027817   
-tsuchida_blink              1.000000       0.684639         -0.010998   
-tsuchida_mask               0.684639       1.000000         -0.099237   
-angelina_front_1           -0.010998      -0.099237          1.000000   
-angelina_front_2           -0.136602      -0.150081          0.765440   
-angelina_front_3           -0.007357      -0.025983          0.750093   
-angelina_look_away_1       -0.225219      -0.249840          0.758555   
-angelina_look_away_2       -0.132535      -0.042960          0.630362   
-
-                      angelina_front_2  angelina_front_3  \
-tsuchida_normal              -0.179078         -0.013355   
-tsuchida_smile               -0.232297         -0.085188   
-tsuchida_look_away           -0.058182         -0.027214   
-tsuchida_blink               -0.136602         -0.007357   
-tsuchida_mask                -0.150081         -0.025983   
-angelina_front_1              0.765440          0.750093   
-angelina_front_2              1.000000          0.602126   
-angelina_front_3              0.602126          1.000000   
-angelina_look_away_1          0.741212          0.709440   
-angelina_look_away_2          0.595771          0.648404   
-
-                      angelina_look_away_1  angelina_look_away_2  
-tsuchida_normal                  -0.280825             -0.131103  
-tsuchida_smile                   -0.287178             -0.140251  
-tsuchida_look_away               -0.155110             -0.070305  
-tsuchida_blink                   -0.225219             -0.132535  
-tsuchida_mask                    -0.249840             -0.042960  
-angelina_front_1                  0.758555              0.630362  
-angelina_front_2                  0.741212              0.595771  
-angelina_front_3                  0.709440              0.648404  
-angelina_look_away_1              1.000000              0.731662  
-angelina_look_away_2              0.731662              1.000000  
+[10 rows x 10 columns]
