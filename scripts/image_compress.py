@@ -1,10 +1,8 @@
 from PIL import Image
 import yaml
-import argparse
+from option import args
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-y', '--yaml_file', type=str, default='yaml/compress_image_list.yaml')
-args = parser.parse_args()
+
 image_paths = []
 with open(args.yaml_file, 'r') as yaml_file:
     image_paths = yaml.safe_load(yaml_file)
