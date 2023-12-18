@@ -27,7 +27,7 @@ args = parser.parse_args()
 image_paths = []
 with open(args.yaml_file, 'r') as yaml_file:
     image_paths = yaml.safe_load(yaml_file)
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 mtcnn = MTCNN(image_size=140, margin=0, min_face_size=20, thresholds=[
               0.6, 0.6, 0.7], factor=0.709, post_process=True, device=device)
 resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
