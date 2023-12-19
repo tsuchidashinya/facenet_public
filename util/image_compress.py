@@ -1,6 +1,9 @@
 from PIL import Image
 import yaml
-from option import args
+import sys
+sys.path.append('./')
+sys.path.append('../')
+from options.option import args
 
 
 image_paths = []
